@@ -54,7 +54,6 @@
 #' ggplot(pairs, aes(x = longitude.x, y = latitude.x,
 #'                   xend = longitude.y, yend = latitude.y)) +
 #'   geom_segment(color = "red") +
-#'   annotation_borders("state") +
 #'   theme_void()
 #'
 #' # also get distances
